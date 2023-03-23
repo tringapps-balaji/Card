@@ -4,9 +4,9 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 public class CardDetails implements Cloneable{
     Logger lg = Logger.getLogger("Card");
-    public static String  Holdername;
-    public static String Cardnumber;
-    public static String Expiredate;
+    public  String  Holdername;
+    public  String Cardnumber;
+    public  String Expiredate;
     String name = "karthick";
     String number = "1234";
     String date = "10";
